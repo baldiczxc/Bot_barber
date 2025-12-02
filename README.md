@@ -1,5 +1,7 @@
 # 💈 Telegram-бот для барбершопа
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![SQLAlchemy](https://img.shields.io/badge/sqlalchemy-%23D71F00.svg?style=for-the-badge&logo=sqlalchemy&logoColor=white) 
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) 
+![SQLAlchemy](https://img.shields.io/badge/sqlalchemy-%23D71F00.svg?style=for-the-badge&logo=sqlalchemy&logoColor=white) 
+![Aiogram](https://img.shields.io/badge/Aiogram-009688?style=for-the-badge&logoColor=white)
 
 Профессиональный бот для записи клиентов на стрижку с полноценной базой данных и всеми необходимыми функциями.
 
