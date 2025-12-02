@@ -92,36 +92,36 @@ python bot.py
 
 При первом запуске автоматически создастся база данных SQLite.
 
-## 📊 База данных
+## 🗄 **База данных (SQLAlchemy Async)**
 
-Бот использует SQLAlchemy с поддержкой async операций.
+### **Таблица users**
 
-### Таблицы:
+|Поле|Описание|
+|---|---|
+|id|PK|
+|telegram_id|уникальный ID|
+|username|@username|
+|full_name|Имя|
+|phone|Телефон|
+|created_at|Дата регистрации|
+|is_blocked|Заблокирован ли|
 
-**users** - Пользователи
-- id (PK)
-- telegram_id (уникальный)
-- username
-- full_name
-- phone
-- created_at
-- is_blocked
+### **Таблица bookings**
 
-**bookings** - Записи
-- id (PK)
-- user_telegram_id
-- user_name
-- user_phone
-- user_username
-- booking_date
-- booking_time
-- service_type
-- service_name
-- service_price
-- service_duration
-- status (active/completed/cancelled)
-- created_at
-- barber_comment
+|Поле|Описание|
+|---|---|
+|id|PK|
+|user_telegram_id|ID клиента|
+|user_name|Имя|
+|booking_date|Дата|
+|booking_time|Время|
+|service_name|Услуга|
+|service_price|Цена|
+|duration|Длительность|
+|status|active/completed/cancelled|
+|created_at|Время записи|
+|barber_comment|Комментарий мастера|
+
 
 ### Миграция на PostgreSQL (опционально)
 
